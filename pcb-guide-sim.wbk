@@ -30,6 +30,11 @@
           "color": "rgb(228, 26, 28)",
           "signal": "V(/IN)",
           "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/OUT)",
+          "trace_type": 257
         }
       ]
     }
