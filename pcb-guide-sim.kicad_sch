@@ -150,6 +150,342 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:VPULSE"
 			(pin_numbers
 				(hide yes)
@@ -586,6 +922,22 @@
 		(color 0 0 0 0)
 		(uuid "2e9c770f-b909-4b0a-b079-fa8699d51a77")
 	)
+	(junction
+		(at 152.4 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c030e4e2-7c7a-4716-9fbe-50571f91de24")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392602fd-4c72-42f2-8598-b669cac6fa95")
+	)
 	(wire
 		(pts
 			(xy 142.24 111.76) (xy 142.24 114.3)
@@ -598,17 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56be2585-a768-4081-887e-a8077b4ad13f")
-	)
-	(wire
-		(pts
-			(xy 142.24 111.76) (xy 153.67 111.76)
+			(xy 142.24 111.76) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -618,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 96.52) (xy 153.67 100.33)
+			(xy 162.56 96.52) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -628,13 +970,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 111.76) (xy 153.67 107.95)
+			(xy 162.56 111.76) (xy 162.56 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "836935f5-03e6-459c-bcf5-ee724b431951")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d264e7-32d7-4b9c-8b0c-7ad6130f33e3")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8256faa-b246-4eec-a856-b09ee95f49e8")
 	)
 	(wire
 		(pts
@@ -656,6 +1018,16 @@
 		)
 		(uuid "fb67b8eb-13c2-41a1-a9dd-bfede0d9cd62")
 	)
+	(wire
+		(pts
+			(xy 157.48 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda9b18a-86e9-4b41-9f2e-d45b3cf30f0b")
+	)
 	(label "IN"
 		(at 142.24 96.52 0)
 		(effects
@@ -666,9 +1038,135 @@
 		)
 		(uuid "22757f64-98d9-49f5-9bda-d40ef684a608")
 	)
+	(label "OUT"
+		(at 162.56 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4384ecb-5102-4bf0-b4b6-394bc0cedc24")
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 152.4 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22ac67a7-a5cb-43f9-bd22-63cb18194f3c")
+		(property "Reference" "Q1"
+			(at 152.4 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 152.4 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 169.545 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 171.45 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f7c6555e-981a-451e-af5d-9fbf774462aa")
+		)
+		(pin "1"
+			(uuid "cf0a6334-b3b0-4732-ade0-395caa7798b9")
+		)
+		(pin "2"
+			(uuid "3763b2d5-cb99-4e4f-adac-06de916139d4")
+		)
+		(instances
+			(project "pcb-guide-sim"
+				(path "/0124ff61-c55b-4890-8235-20d72f374281"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 104.14 0)
+		(at 162.56 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -679,7 +1177,7 @@
 		(fields_autoplaced yes)
 		(uuid "6859f8de-b80f-4c86-a2e6-b970214dd10a")
 		(property "Reference" "R1"
-			(at 156.21 102.8699 0)
+			(at 165.1 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -690,7 +1188,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 156.21 105.4099 0)
+			(at 165.1 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -701,7 +1199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.892 104.14 90)
+			(at 160.782 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -712,7 +1210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 104.14 0)
+			(at 162.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -723,7 +1221,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 104.14 0)
+			(at 162.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
