@@ -28,7 +28,7 @@
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(Net-_R1-Pad1_)",
+          "signal": "V(/IN)",
           "trace_type": 257
         }
       ]

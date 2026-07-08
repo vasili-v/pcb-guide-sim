@@ -656,6 +656,16 @@
 		)
 		(uuid "fb67b8eb-13c2-41a1-a9dd-bfede0d9cd62")
 	)
+	(label "IN"
+		(at 142.24 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22757f64-98d9-49f5-9bda-d40ef684a608")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 153.67 104.14 0)
