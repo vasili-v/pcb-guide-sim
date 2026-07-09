@@ -35,10 +35,26 @@
           "color": "rgb(77, 175, 74)",
           "signal": "V(/OUT)",
           "trace_type": 257
+        },
+        {
+          "color": "rgb(194, 0, 194)",
+          "cursor1": {
+            "position": 0.25,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "V(/G)-V(/OUT)",
+          "trace_type": 257
         }
       ]
     }
   ],
-  "user_defined_signals": [],
+  "user_defined_signals": [
+    "V(/G)-V(/OUT)"
+  ],
   "version": 7
 }
